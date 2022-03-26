@@ -1648,4 +1648,28 @@ Wire Wire Line
 Connection ~ 1550 4200
 Wire Wire Line
 	1550 4200 1500 4200
+$Comp
+L DBLS_Logo:DBLS_Chicken_Small LOGO2
+U 1 1 6246F17A
+P 10500 5800
+F 0 "LOGO2" H 10500 5800 50  0001 C CNN
+F 1 "DBLS_Chicken_Small" H 10500 5800 50  0001 C CNN
+F 2 "DBLS_LOGO:Rooster_4mmx4mm" H 10530 5950 20  0001 C CNN
+F 3 "" H 10500 5800 50  0001 C CNN
+F 4 "DNI" H 10500 5800 50  0001 C CNN "place"
+	1    10500 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L DBLS_Logo:DBLS_van_logo_small_v1 LOGO1
+U 1 1 6246F6AD
+P 9950 5800
+F 0 "LOGO1" H 9950 5800 50  0001 C CNN
+F 1 "DBLS_van_logo_small_v1" H 9950 5800 50  0001 C CNN
+F 2 "DBLS_LOGO:van_logo_small" H 9980 5950 20  0001 C CNN
+F 3 "" H 9950 5800 50  0001 C CNN
+F 4 "DNI" H 9950 5800 50  0001 C CNN "place"
+	1    9950 5800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
